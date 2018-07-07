@@ -1,2 +1,2 @@
 ## Simple Calculator
-![image](https://puu.sh/ASCoX/aed2ed8a1e.png)
+![image](https://puu.sh/ASCwZ/6dae9cf7d0.png)
