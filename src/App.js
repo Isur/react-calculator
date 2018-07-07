@@ -56,7 +56,7 @@ constructor(props){
       });
     }else if(this.state.operator === null){
       this.setState(prevState => ({
-        firstNumber: `${prevState.firstNumber}${num}`
+        firstNumber: parseFloat(`${prevState.firstNumber}${num}`)
       }));
     }else if(this.state.operator !== null && this.state.resultNumber === null){
       if(this.state.secondNumber === null){
@@ -65,7 +65,7 @@ constructor(props){
          });
       }else{
         this.setState(prevState => ({
-          secondNumber: `${prevState.secondNumber}${num}`
+          secondNumber: parseFloat(`${prevState.secondNumber}${num}`)
         }));
       }
     }else if(this.state.resultNumber !== null){
