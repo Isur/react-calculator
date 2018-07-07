@@ -104,15 +104,13 @@ constructor(props){
         switch(prevState.operator){
           case "+":
             return ({resultNumber: prevState.firstNumber + prevState.secondNumber});
-          break;
           case "-":
-          return ({resultNumber: prevState.firstNumber - prevState.secondNumber});
-          break;
+            return ({resultNumber: prevState.firstNumber - prevState.secondNumber});
           case "*":
-          return ({resultNumber: prevState.firstNumber * prevState.secondNumber});
-          break;
+            return ({resultNumber: prevState.firstNumber * prevState.secondNumber});
           case "/":
-          return ({resultNumber: prevState.firstNumber / prevState.secondNumber});
+            return ({resultNumber: prevState.firstNumber / prevState.secondNumber});
+          default:
           break;
         }
       });
