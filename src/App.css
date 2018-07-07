@@ -2,6 +2,8 @@
   width: 300px;
   height: 500px;
   display: inline-block;
+  background-color: black;
+  border: solid black;
 }
 
 .Buttons{
@@ -11,8 +13,24 @@
 }
 
 .Buttons button{
-  height: 25%;
-  width: 25%;
+  height: 24%;
+  width: 24%;
+  margin: 0.5%;
+  border: none;
+  background-color: darkslategray;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+.Buttons button:hover{
+  background-color: darkred;
+  color: white;
+}
+
+.Buttons .operator{
+  background-color: darkslateblue;
+  font-style: italic;
+  color: black;
 }
 
 .Result{
@@ -21,18 +39,19 @@
   font-weight: bolder;
   vertical-align: middle;
   position: relative;
+  background-color: grey;
 }
 
 .ResultText{
-  /* line-height: 300%; */
   position: absolute;
   height: 30%;
-  width: 50%;
+  width: 100%;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   margin: auto;
+  font-size: 170%;
 }
 
 #root{

@@ -10,22 +10,22 @@ const Button = (props) => {
 const Buttons = (props) => {
   return(
     <div className="Buttons">
-      <Button cl="ButtonNumbers" value="7" id="button_7" function={() => props.number(7)} />
-      <Button cl="ButtonNumbers" value="8" id="button_8" function={() => props.number(8)} />
-      <Button cl="ButtonNumbers" value="9" id="button_9" function={() => props.number(9)} />
-      <Button cl="ButtonNumbers" value="+" id="button_+" function={() => props.operator("+")}/>
-      <Button cl="ButtonNumbers" value="4" id="button_4" function={() => props.number(4)} />
-      <Button cl="ButtonNumbers" value="5" id="button_5" function={() => props.number(5)} />
-      <Button cl="ButtonNumbers" value="6" id="button_6" function={() => props.number(6)} />
-      <Button cl="ButtonNumbers" value="-" id="button_-" function={() => props.operator("-")}/>
-      <Button cl="ButtonNumbers" value="1" id="button_1" function={() => props.number(1)} />
-      <Button cl="ButtonNumbers" value="2" id="button_2" function={() => props.number(2)} />
-      <Button cl="ButtonNumbers" value="3" id="button_3" function={() => props.number(3)} />
-      <Button cl="ButtonNumbers" value="*" id="button_*" function={() => props.operator("*")}/>
-      <Button cl="ButtonNumbers" value="C" id="button_C" function={props.clear}/>
-      <Button cl="ButtonNumbers" value="0" id="button_0" function={() => props.number(0)} />
-      <Button cl="ButtonNumbers" value="=" id="button_=" function={props.equal}/>
-      <Button cl="ButtonNumbers" value="/" id="button_/" function={() => props.operator("/")}/>
+      <Button cl="ButtonNumbers number" value="7" id="button_7" function={() => props.number(7)} />
+      <Button cl="ButtonNumbers number" value="8" id="button_8" function={() => props.number(8)} />
+      <Button cl="ButtonNumbers number" value="9" id="button_9" function={() => props.number(9)} />
+      <Button cl="ButtonNumbers operator" value="+" id="button_+" function={() => props.operator("+")}/>
+      <Button cl="ButtonNumbers number" value="4" id="button_4" function={() => props.number(4)} />
+      <Button cl="ButtonNumbers number" value="5" id="button_5" function={() => props.number(5)} />
+      <Button cl="ButtonNumbers number" value="6" id="button_6" function={() => props.number(6)} />
+      <Button cl="ButtonNumbers operator" value="-" id="button_-" function={() => props.operator("-")}/>
+      <Button cl="ButtonNumbers number" value="1" id="button_1" function={() => props.number(1)} />
+      <Button cl="ButtonNumbers number" value="2" id="button_2" function={() => props.number(2)} />
+      <Button cl="ButtonNumbers number" value="3" id="button_3" function={() => props.number(3)} />
+      <Button cl="ButtonNumbers operator" value="*" id="button_*" function={() => props.operator("*")}/>
+      <Button cl="ButtonNumbers operator" value="C" id="button_C" function={props.clear}/>
+      <Button cl="ButtonNumbers number" value="0" id="button_0" function={() => props.number(0)} />
+      <Button cl="ButtonNumbers operator" value="=" id="button_=" function={props.equal}/>
+      <Button cl="ButtonNumbers operator" value="/" id="button_/" function={() => props.operator("/")}/>
     </div>
   );
 }
